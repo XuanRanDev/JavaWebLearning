@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>从左到右从右到左练习</title>
+        <script src="js/jquery.js"></script>
+        <script>
+            $(function () {
+                $("button:eq(0)").click(function () {
+                    $("select:eq(0) option:selected").appendTo($("select:eq(1)"))
+                })
+                $("button:eq(1)").click(function () {
+                    $("select:eq(0) option").appendTo($("select:eq(1)"))
+                })
+                $("button:eq(2)").click(function () {
+                    $("select:eq(1) option:selected").appendTo($("select:eq(0)"))
+                })
+                $("button:eq(3)").click(function () {
+                    $("select:eq(1) option").appendTo($("select:eq(0)"))
+                })
+            })
+        </script>
+    </head>
+    <body>
+
+        <div style="float: left;" id="left">
+            <select style="width: 70px;height: 150px" multiple="multiple">
+                <option>选项1</option>
+                <option>选项2</option>
+                <option>选项3</option>
+                <option>选项4</option>
+                <option>选项5</option>
+                <option>选项6</option>
+                <option>选项7</option>
+            </select>
+            <button>移动到右边</button>
+            <button>全部移动到右边</button>
+        </div>
+
+
+        <div id="right">
+            <select style="width: 70px;height: 150px" multiple="multiple">
+
+            </select>
+            <button>移动到左边</button>
+            <button>全部移动到左选项边</button>
+        </div>
+
+    </body>
+</html>
