@@ -1,6 +1,7 @@
 package cc.xuanran.tomcattest.TomcatTest;
 
 import java.io.*;
+import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
@@ -21,6 +22,11 @@ public class HelloServlet extends HttpServlet {
         out.println("<h1>" + message + "</h1>");
         out.println("<a href='www.xuanran.cc' >" + "XuanRan's Blog" + "</a>");
         out.println("</body></html>");
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        super.doPost(req, resp);
     }
 
     public void destroy() {
