@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TomcatTest" />
+        <module name="ServletDownloadFile" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ServletDownloadFile" target="1.8" />
+      <module name="ServletDownloadFIle" target="1.8" />
       <module name="TomcatTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

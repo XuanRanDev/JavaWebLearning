@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ServletDownloadFile:war">
+    <output-path>$PROJECT_DIR$/ServletDownloadFile/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ServletDownloadFile</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ServletDownloadFile-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ServletDownloadFile:war exploded" />
+    </root>
+  </artifact>
+</component>
