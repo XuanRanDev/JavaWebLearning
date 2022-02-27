@@ -7,6 +7,6 @@
 <body>
 <h1><%= "Hello World!" %></h1>
 <br/>
-<a href="/downloadServlet">Hello Servlet</a>
+<a href="${pageContext.request.contextPath}/downloadServlet">Hello Servlet</a>
 </body>
 </html>
