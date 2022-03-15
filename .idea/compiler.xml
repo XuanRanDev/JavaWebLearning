@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="TomcatTest" />
         <module name="ServletDownloadFile" />
+        <module name="TestDemo1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ServletDownloadFile" target="1.8" />
       <module name="ServletDownloadFIle" target="1.8" />
+      <module name="TestDemo1" target="1.8" />
       <module name="TomcatTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
