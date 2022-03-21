@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/jQuery/ServletDownloadFile" />
     <file type="web" url="file://$PROJECT_DIR$/jQuery/TomcatTest" />
     <file type="web" url="file://$PROJECT_DIR$/ServletDownloadFile" />
+    <file type="web" url="file://$PROJECT_DIR$/ServletLoginDemo" />
     <file type="web" url="file://$PROJECT_DIR$/TestDemo1" />
   </component>
   <component name="MavenProjectsManager">
@@ -13,6 +14,7 @@
         <option value="$PROJECT_DIR$/jQuery/TomcatTest/pom.xml" />
         <option value="$PROJECT_DIR$/ServletDownloadFile/pom.xml" />
         <option value="$PROJECT_DIR$/TestDemo1/pom.xml" />
+        <option value="$PROJECT_DIR$/ServletLoginDemo/pom.xml" />
       </list>
     </option>
   </component>
