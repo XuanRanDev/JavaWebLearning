@@ -1,2 +1,2 @@
 # JavaWebLearning
-JavaWeb
+JavaWeb2
